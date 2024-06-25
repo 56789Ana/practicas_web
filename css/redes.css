@@ -1,0 +1,56 @@
+/*documento CSS*/
+* {margin:0;
+  padding:0;
+}
+
+  section,div,a {box-sizing:border-box; }
+
+
+.h1 {text-align: center; 
+    font size:3em
+    padding-bottom:15px ;
+}
+
+.sociales {background-color: rgb(31, 71, 71);
+padding: 30px 0px;
+min-height:1px;}
+
+.container{ display: flex;
+            width:300px;
+            margin: auto;
+            min-height: 1px;
+            flex-direction: row;
+            flex wrap: wrap
+}
+
+.items{ font-size: 6em;
+        width: 50%;
+        text-align: center;
+        color: black;
+        border: radious 300px;
+        height: 140px;
+        padding: top 17*px;
+        background-color:white;
+        margin-top:8px; }
+         /*MEDIA QUERIES PANTALLAS + 900PX */
+         @media only screen and (min-width:600px); 
+         a.items {color:green;
+                background:black}
+
+       
+        /*MEDIA QUERIES PANTALLAS + 900PX */
+        @media only screen and (min-width:600px) {
+        a.items {color: darkred;
+                background-color: black;
+                width:25%;
+                font-size: 3em;
+                height: 83px;
+                margin-top: 6px;
+            text-align: center;}
+
+        .container: width: 400px;
+                    justify-content: space-between;
+
+        .sociales  {padding-bottom: 50px ;}
+        a.items:hover{color: rgb(254, 254, 254);}
+}
