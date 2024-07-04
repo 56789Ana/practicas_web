@@ -1,0 +1,48 @@
+/*DOCUMENTO CSS*/
+
+{margin:0;
+padding:0}
+
+body {background-color: #ffe4c4;}
+
+header.cabecera {background-color: black;}
+
+div.logo {width: 180px;}
+
+.logo img {
+           display: flex;
+           justify-content: center;}
+
+
+nav.menu{}
+
+div.contenedor {display: flex;
+                width: 95%;
+                margin: auto;
+                position: relative;           
+                top:19px;
+                align-items: center;}
+
+a.item {color: white;
+        font-family: "Advent Pro", sans-serif;
+        width: 25%;
+        text-align: center;
+        padding: 8px 0px;
+        font-size: 1.5em;
+        border: 1px solid white;
+        background-color: black;
+        box-sizing: border-box; }
+
+.productos{width: 60%;
+    margin: auto;
+    display: flex;
+
+}
+.items{width: 50%;}
+
+.item2 img {width: 100%;}
+               
+@media only screen and (min-width:1280px) {
+    div.contenedor { width:50%;}
+    
+}
